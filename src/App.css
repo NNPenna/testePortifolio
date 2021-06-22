@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.ChartLine {
+  /* display: flex; */
+  /* flex-direction: row; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.row {
+  /* display: flex; */
+  /* flex-direction: row; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.chartHolder {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: row;
+  padding: 20px;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.ValorAcao {
+  width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  box-sizing: border-box!important;
 }
+
+tr:hover{
+  background-color:#dfdfdf;
+  cursor:pointer;
+}
+
+.ChartLine h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #487bef;
+  padding: 20px;
+}
+
+.Portifolio {}
+
+tr.tableIndex {
+  color: #444;
+  background-color: #5fa;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+td {
+  padding: 10px;
+  font-weight: 700;
+}
+
+td {}

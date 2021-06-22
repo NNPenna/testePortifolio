@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "nomeAcao": "br",
+            "numeroTotalAcao": "1000",
+            "precoAcao": "28.95"
+        },
+        {
+            "nomeAcao": "pan",
+            "numeroTotalAcao": "800",
+            "precoAcao": "23.92"
+        },
+        {
+            "nomeAcao": "vale",
+            "numeroTotalAcao": "400",
+            "precoAcao": "110.11"
+        }
+    ]
+}
